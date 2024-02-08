@@ -1,1 +1,1 @@
- // convert a number " Number()" 
+ // convert a number " Number(),String() ,Boolean()" 
