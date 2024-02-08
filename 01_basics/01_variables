@@ -1,0 +1,6 @@
+const names="prateek premanand";
+let roll_no=22;
+var area="mumbai";
+house_address="AKRUTI";
+
+console.table([names,roll_no,area,house_address]);
