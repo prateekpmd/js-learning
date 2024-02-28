@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .allBlack{
+            background-color: black;
+        }
+        .whitee{
+            color: aliceblue;
+        }
+    </style>
+</head>
+<body class="allBlack">
+    <div class="whitee"  >
+        <h1 >hello hi </h1>
+        <p>wha</p>
+    </div>
+</body>
+<script>
+    const xhr = new XMLHttpRequest();
+    const url="https://api.github.com/users/prateekpmd"
+    xhr.open('GET',url);
+    xhr.onreadystatechange=function(){
+        console.log(xhr.readyState);
+        if(xhr.readyState===4){
+            console.log(this.responseText); //
+        }
+        
+    }
+    xhr.send();
+
+
+// promise object represents the completion and failure of an asyncronous task.
+</script>
+</html>

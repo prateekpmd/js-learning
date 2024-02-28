@@ -1,6 +1,20 @@
-const names="prateek premanand";
-let roll_no=22;
-var area="mumbai";
-house_address="AKRUTI";
+// const names="prateek premanand";
+// let roll_no=22;
+// var area="mumbai";
+// house_address="AKRUTI";
 
-console.table([names,roll_no,area,house_address]);
+// console.table([names,roll_no,area,house_address]);
+
+
+let a = 1;
+let c = a++; //1
+let b = ++a; //3
+
+console.log(c);
+console.log(b);
+
+//break
+//to break the control flow of the execution
+
+//continue 
+// skips the condition where continue is written
