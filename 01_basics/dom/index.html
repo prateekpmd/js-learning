@@ -17,21 +17,33 @@
     <div class="whitee"  >
         <h1 >hello hi </h1>
         <p>wha</p>
+        <button>hello</button>
     </div>
 </body>
 <script>
-    const xhr = new XMLHttpRequest();
-    const url="https://api.github.com/users/prateekpmd"
-    xhr.open('GET',url);
-    xhr.onreadystatechange=function(){
-        console.log(xhr.readyState);
-        if(xhr.readyState===4){
-            console.log(this.responseText); //
-        }
+    // const xhr = new XMLHttpRequest();
+    // const url="https://api.github.com/users/prateekpmd"
+    // xhr.open('GET',url);
+    // xhr.onreadystatechange=function(){
+    //     console.log(xhr.readyState);
+    //     if(xhr.readyState===4){
+    //         console.log(this.responseText); //
+    //     }
         
-    }
-    xhr.send();
+    // }
+    // xhr.send();
 
+    // for (let index = 0; index < 5; index++) {
+    //     console.log(index);
+        
+    // }
+
+    function what(){
+        document.body.style.backgroundColor="green";
+    }
+    document.querySelector('button').addEventListener("click",()=>{
+        
+    });
 
 // promise object represents the completion and failure of an asyncronous task.
 </script>
