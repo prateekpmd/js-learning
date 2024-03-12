@@ -1,15 +1,15 @@
-// JAVASCRIPT IS A PROTOTYPE BASED LANGUAGE :
-// function User(name,age){
-//         this.name=name;
-//         this.age=age;
-// }
+//JAVASCRIPT IS A PROTOTYPE BASED LANGUAGE :
+function User(name,age){
+        this.name=name;
+        this.age=age;
+}
 
-// User.prototype.name=function(){
-//     console.log(this.name);
-// }
+User.prototype.name=function(){
+    console.log(this.name);
+}
 
-// const username=new User("pat",21);
-// console.log(username.name());
+const username=new User("pat",21);
+console.log(username.name());
 
 //new and constructor ka propotype are linked togther
 //1. if we create a functionName1.prototype.newfunction=function(){
@@ -22,18 +22,18 @@
 //1.constructor functions and proptotype
 
 
-// const hell={
-//     name:'prateek',
-//     age:22,
-//     printName:function(){
-//         console.log(`my name is ${this.name}`);
-//     }
-// }
+const hell={
+    name:'prateek',
+    age:22,
+    printName:function(){
+        console.log(`my name is ${this.name}`);
+    }
+}
 
-// Object.prototype.power=function(){
-//     console.log("my power is to kill");
-// };
-// console.log(hell);
+Object.prototype.power=function(){
+    console.log("my power is to kill");
+};
+console.log(hell);
 
 
 const s='patrick';

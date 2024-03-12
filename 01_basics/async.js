@@ -130,3 +130,8 @@ function box(){
 //  }).then((data)=>{
 //     console.log(data);
 //  })
+
+
+//Promise.all([promise1,promise2]) <-- if a promise fails all promises are failed.
+//promise.allsettled([promise1,promise2]) <-- if a promise fails which promise fails shows
+//promise.race([promise1,promise2]) <-- Konsa promise pehle ayega that will be resolved 
